@@ -1,1 +1,42 @@
+# Python venv
 venv/
+__pycache__/
+*.pyc
+
+# Node / React
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+.env.*
+*.env
+*.env.production
+*.env.development
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+
+
+
+# React build
+frontend/build/
+
+# Selenium temp
+.selenium/
+
+# Python cache
+.pytest_cache/
+
+# Mac / Windows junk
+*.swp

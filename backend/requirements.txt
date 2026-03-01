@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+joblib
+flask
+flask-cors
+requests
+beautifulsoup4
+tldextract
+python-whois
+dnspython
+selenium
+googlesearch-python
