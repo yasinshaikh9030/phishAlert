@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "PhishAlert",
+  "version": "1.0",
+  "description": "Detects if a website is malicious or safe based on ML.",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["assets/main.js"],
+      "css": ["assets/main.css"]
+    }
+  ]
+}
